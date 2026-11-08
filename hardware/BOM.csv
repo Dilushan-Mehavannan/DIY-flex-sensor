@@ -1,0 +1,13 @@
+Item,Designator,Component Description,Specification / Value,Package / Footprint,Quantity,Function
+1,U1,Quad Operational Amplifier,LM324N (Single supply 3V-32V),DIP-14,1,Signal buffer and inverting comparator
+2,R1,Pull-Up Resistor,1.00 MΩ ±5% 1/4W Carbon Film,Through-Hole Axial,1,Matches high sensor base impedance for voltage division
+3,R2,Threshold Divider Resistor,10.0 kΩ ±5% 1/4W Metal Film,Through-Hole Axial,1,Forms 4.0V reference midpoint divider (top leg)
+4,R3,Threshold Divider Resistor,10.0 kΩ ±5% 1/4W Metal Film,Through-Hole Axial,1,Forms 4.0V reference midpoint divider (bottom leg)
+5,R4,LED Current-Limiting Resistor,330 Ω ±5% 1/4W Metal Film,Through-Hole Axial,1,Limits LED forward current to safe operating range
+6,RV1,Gain / Calibration Potentiometer,10.0 kΩ Single-Turn Rotary / Trimpot,Breadboard-friendly,1,Adjustable feedback loop across Op-Amp Stage 1
+7,C1,Low-Pass Filter Capacitor,0.1 µF (100 nF) 50V Ceramic (104),Radial Ceramic Disc,1,Attenuates 50Hz mains hum and tactile contact noise
+8,SENSOR1,Piezoresistive DIY Flex Sensor,Carbon-coated flexible strip (>1 MΩ base),Custom flexible strip,1,Converts mechanical bend to electrical resistance variation
+9,D1,Indicator LED,5mm Red LED (Vf ≈ 2.0V, If ≈ 15mA),Radial 5mm T-1 3/4,1,Visual binary state indicator
+10,PWR,DC Regulated Power Supply,+8.0V DC regulated rail,External bench supply,1,System power supply rail
+11,BB1,Solderless Breadboard,830 Tie-Point Breadboard,Standard Breadboard,1,Circuit prototyping and interconnects
+12,W1-W15,Jumper Wires,22 AWG Solid Core / Dupont,M-M / M-F,15,Signal routing and power distribution
